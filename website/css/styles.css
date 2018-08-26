@@ -35,11 +35,13 @@ h6 {
 	color: white;
 	margin: 0;
 }
+
 a {
 	color: #01E7CF;
 	text-decoration: none;
 }
-a:hover{
+
+a:hover {
 	text-decoration: underline;
 }
 
@@ -135,6 +137,7 @@ header .img {
 	opacity: .2;
 	animation: shootingstar 8s infinite linear;
 }
+
 .down {
 	position: absolute;
 	bottom: 80px;
@@ -144,9 +147,19 @@ header .img {
 }
 
 @keyframes bounce {
-	0%, 30%, 50%, 80%, 100% {transform: translateY(0);} 
-	20% {transform: translateY(-16px);} 
-	40% {transform: translateY(-8px);} 
+	0%,
+	30%,
+	50%,
+	80%,
+	100% {
+		transform: translateY(0);
+	}
+	20% {
+		transform: translateY(-16px);
+	}
+	40% {
+		transform: translateY(-8px);
+	}
 }
 
 @keyframes shootingstar {
@@ -191,7 +204,6 @@ header h2 {
 	font-weight: lighter;
 }
 
-
 @media only screen and (min-width: 1080px) {
 	.planet1 {
 		height: 100px;
@@ -200,7 +212,6 @@ header h2 {
 		left: 15%;
 		filter: hue-rotate(-20deg);
 	}
-	
 	.planet2 {
 		height: 300px;
 		width: 300px;
@@ -208,7 +219,6 @@ header h2 {
 		right: 5%;
 		filter: hue-rotate(120deg);
 	}
-
 	.shootingstar {
 		height: 100px;
 		width: 200px;
@@ -217,7 +227,6 @@ header h2 {
 		opacity: .2;
 		animation: shootingstar 13s infinite linear;
 	}
-	
 	@keyframes shootingstar {
 		0% {
 			top: -100px;
