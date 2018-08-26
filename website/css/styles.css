@@ -1,0 +1,235 @@
+/* Stylesheet by Manaus Transez */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+* {
+	transition: .2s;
+}
+
+html,
+body {
+	color: #E8ECFF;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	min-height: 300vh;
+	overflow-x: hidden;
+}
+
+html {
+	background: linear-gradient(#2A345B, #7D4B7A, #4D889B, #2A345B);
+}
+
+body {
+	background-image: url('../assets/overlay.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: white;
+	margin: 0;
+}
+a {
+	color: #01E7CF;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+nav {
+	z-index: 100;
+	box-sizing: border-box;
+	position: fixed;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
+	padding: 8px 16px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav img {
+	height: 44px;
+	width: 44px;
+	opacity: .75;
+	margin-right: 16px;
+}
+
+nav .name {
+	font-size: 18px;
+	color: white;
+	opacity: .75;
+}
+
+nav a {
+	font-family: 'Roboto Black', sans-serif;
+	font-weight: 900;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	color: #91A6FF;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #eee;
+}
+
+header {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url('../assets/stars.svg');
+	background-size: contain;
+	height: 100vh;
+}
+
+header .img img,
+header .intro {
+	position: absolute;
+	text-align: center;
+	transition: 0s;
+}
+
+header .intro {
+	z-index: 2;
+	top: 20%;
+}
+
+header .img {
+	z-index: 1;
+}
+
+.planet1 {
+	height: 100px;
+	width: 100px;
+	top: 15%;
+	left: 5%;
+	filter: hue-rotate(-20deg);
+}
+
+.planet2 {
+	height: 300px;
+	width: 300px;
+	bottom: -5%;
+	right: -15%;
+	filter: hue-rotate(120deg);
+}
+
+.shootingstar {
+	height: 100px;
+	width: 200px;
+	top: 0;
+	left: -200px;
+	opacity: .2;
+	animation: shootingstar 8s infinite linear;
+}
+.down {
+	position: absolute;
+	bottom: 80px;
+	color: #01E7CF;
+	font-size: 24px;
+	animation: bounce 2.5s infinite linear;
+}
+
+@keyframes bounce {
+	0%, 30%, 50%, 80%, 100% {transform: translateY(0);} 
+	20% {transform: translateY(-16px);} 
+	40% {transform: translateY(-8px);} 
+}
+
+@keyframes shootingstar {
+	0% {
+		top: 0;
+		left: -200px;
+	}
+	25% {
+		top: 700px;
+		left: 1300px;
+	}
+	100% {
+		top: 700px;
+		left: 1300px;
+	}
+}
+
+header .picture {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	box-shadow: 2px 6px 12px rgba(0, 0, 0, 0.5);
+	background-image: url('../assets/manaus.png');
+	background-position: top;
+	background-size: cover;
+	margin: 24px auto;
+}
+
+header .picture:active {
+	transform: scale(3);
+}
+
+header h1 {
+	font-family: 'Roboto Black', 'Lato Black', sans-serif;
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+header h2 {
+	font-family: 'Lato Light', sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+
+@media only screen and (min-width: 1080px) {
+	.planet1 {
+		height: 100px;
+		width: 100px;
+		top: 35%;
+		left: 15%;
+		filter: hue-rotate(-20deg);
+	}
+	
+	.planet2 {
+		height: 300px;
+		width: 300px;
+		bottom: 0;
+		right: 5%;
+		filter: hue-rotate(120deg);
+	}
+
+	.shootingstar {
+		height: 100px;
+		width: 200px;
+		top: -100px;
+		left: 200px;
+		opacity: .2;
+		animation: shootingstar 13s infinite linear;
+	}
+	
+	@keyframes shootingstar {
+		0% {
+			top: -100px;
+			left: 200px;
+		}
+		25% {
+			top: 1000px;
+			left: 2500px;
+		}
+		100% {
+			top: 1000px;
+			left: 2500px;
+		}
+	}
+}
