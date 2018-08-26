@@ -1,6 +1,5 @@
 /* Stylesheet by Manaus Transez */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 * {
 	transition: .2s;
@@ -9,8 +8,10 @@
 html,
 body {
 	color: #E8ECFF;
+	line-height: 1.5rem;
 	font-size: 16px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato Regular', 'Lato', sans-serif;
+	font-weight: 500;
 	min-height: 300vh;
 	overflow-x: hidden;
 }
@@ -45,12 +46,35 @@ a:hover {
 	text-decoration: underline;
 }
 
+a.button {
+	font-family: 'Lato Bolder', sans-serif;
+	font-weight: bolder;
+	color: white;
+	margin: 32px 0;
+	display: inline-block;
+	padding: 8px 24px;
+	background: linear-gradient(-60deg, #FF72AE, #8F75FF);
+	border-radius: 20px;
+	box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+a.button:hover {
+	transform: scale(1.05);
+	text-decoration: none;
+	box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+a.button:active {
+	transform: scale(.95);
+	box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
 nav {
 	z-index: 100;
 	box-sizing: border-box;
 	position: fixed;
 	width: 100%;
-	background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
+	background: linear-gradient(rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0));
 	padding: 8px 16px;
 	display: flex;
 	flex-direction: row;
@@ -72,7 +96,7 @@ nav .name {
 }
 
 nav a {
-	font-family: 'Roboto Black', sans-serif;
+	font-family: 'Lato Black', sans-serif;
 	font-weight: 900;
 	display: flex;
 	flex-direction: row;
@@ -84,6 +108,7 @@ nav a {
 
 nav a:hover {
 	color: #eee;
+	text-decoration: none;
 }
 
 header {
@@ -94,6 +119,8 @@ header {
 	justify-content: center;
 	background-image: url('../assets/stars.svg');
 	background-size: contain;
+	background-repeat: repeat;
+	background-position: top center;
 	height: 100vh;
 }
 
@@ -114,11 +141,12 @@ header .img {
 }
 
 .planet1 {
+	opacity: .7;
 	height: 100px;
 	width: 100px;
 	top: 15%;
 	left: 5%;
-	filter: hue-rotate(-20deg);
+	filter: hue-rotate(-40deg);
 }
 
 .planet2 {
@@ -193,7 +221,8 @@ header .picture:active {
 }
 
 header h1 {
-	font-family: 'Roboto Black', 'Lato Black', sans-serif;
+	font-family: 'Lato Black', sans-serif;
+	font-weight: bolder;
 	font-size: 24px;
 	font-weight: bolder;
 }
@@ -204,20 +233,94 @@ header h2 {
 	font-weight: lighter;
 }
 
-@media only screen and (min-width: 1080px) {
+main {
+	padding: 16px;
+	box-sizing: border-box;
+}
+
+main .practical {
+	padding: 0 16px;
+	padding-bottom: 180px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.practical img {
+	width: 100%;
+	max-width: 512px;
+	filter: drop-shadow(2px 6px 12px rgba(0, 0, 0, 0.5));
+}
+
+.practical img:hover {
+	transform: scale(1.05)
+}
+
+main .mern {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.mern h3 {
+	font-size: 24px;
+	font-family: 'Lato Black', 'Lato', sans-serif;
+	font-weight: 900;
+	margin-bottom: 32px;
+}
+
+.mern p {
+	margin: 0;
+}
+
+.mern .buttons {
+	padding-top: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.buttons a {
+	color: #738EE6;
+	transition: .1s;
+}
+
+.buttons a:hover {
+	color: #01E7CF;
+	text-decoration: none;
+}
+
+.circle {
+	margin-bottom: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 64px;
+	width: 64px;
+	background: linear-gradient(#3A3584, #3A185B);
+	box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 50%;
+}
+
+.circle img {
+	height: 32px;
+}
+
+.circle:hover {
+	transform: scale(1.2);
+}
+
+@media only screen and (min-width: 720px) {
 	.planet1 {
-		height: 100px;
-		width: 100px;
-		top: 35%;
+		top: 15%;
 		left: 15%;
-		filter: hue-rotate(-20deg);
 	}
 	.planet2 {
-		height: 300px;
-		width: 300px;
 		bottom: 0;
 		right: 5%;
-		filter: hue-rotate(120deg);
 	}
 	.shootingstar {
 		height: 100px;
@@ -240,5 +343,26 @@ header h2 {
 			top: 1000px;
 			left: 2500px;
 		}
+	}
+	main {
+		padding: 16px 128px;
+	}
+	main .practical {
+		flex-direction: row;
+	}
+	.mern .buttons {
+		margin: 0 auto;
+		max-width: 50%;
+	}
+	.buttons a {
+		margin: 0 32px;
+	}
+	.practical .text {
+		max-width: 50%;
+	}
+	.practical img {
+		max-width: 512px;
+		box-sizing: border-box;
+		margin-left: 32px;
 	}
 }

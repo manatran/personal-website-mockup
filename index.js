@@ -6,6 +6,6 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'website')));
 
 
-app.listen('8080', ()=>{
+app.listen('3000', ()=>{
 	console.log('Server running')
 });
