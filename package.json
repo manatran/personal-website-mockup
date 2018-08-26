@@ -1,0 +1,11 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Server for personal website",
+  "main": "index.js",
+  "dependencies": {
+    "express": "*"
+  },
+  "author": "Manaus Transez",
+  "license": "MIT"
+}
