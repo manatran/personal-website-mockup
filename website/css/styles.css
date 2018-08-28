@@ -1,13 +1,14 @@
 /* Stylesheet by Manaus Transez */
 
 @import url('https://fonts.googleapis.com/css?family=Lato');
-* {
-	transition: .2s;
+::selection {
+	background-color: #01E7CF;
+	color: #2A345B;
 }
 
 html,
 body {
-	color: #E8ECFF;
+	color: #c7d1ff;
 	line-height: 1.5rem;
 	font-size: 16px;
 	font-family: 'Lato Regular', 'Lato', sans-serif;
@@ -37,6 +38,13 @@ h6 {
 	margin: 0;
 }
 
+h3 {
+	font-size: 32px;
+	font-family: 'Lato Black', 'Lato', sans-serif;
+	font-weight: 900;
+	margin-bottom: 32px;
+}
+
 a {
 	color: #01E7CF;
 	text-decoration: none;
@@ -47,7 +55,7 @@ a:hover {
 }
 
 a.button {
-	font-family: 'Lato Bolder', sans-serif;
+	font-family: 'Lato Bolder', 'Lato', sans-serif;
 	font-weight: bolder;
 	color: white;
 	margin: 32px 0;
@@ -59,7 +67,7 @@ a.button {
 }
 
 a.button:hover {
-	transform: scale(1.05);
+	opacity: .85;
 	text-decoration: none;
 	box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -69,6 +77,19 @@ a.button:active {
 	box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
+.gradient-text{
+	color:white;
+	background: -webkit-linear-gradient(-60deg, #458DFF, #01E7CF);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.gradient-text.secondary {
+	background: -webkit-linear-gradient(-60deg, #FFBF85, #FF6EAB);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 nav {
 	z-index: 100;
 	box-sizing: border-box;
@@ -96,7 +117,7 @@ nav .name {
 }
 
 nav a {
-	font-family: 'Lato Black', sans-serif;
+	font-family: 'Lato Black', 'Lato', sans-serif;
 	font-weight: 900;
 	display: flex;
 	flex-direction: row;
@@ -134,6 +155,8 @@ header .intro {
 header .intro {
 	z-index: 2;
 	top: 20%;
+	left: 0;
+	right: 0;
 }
 
 header .img {
@@ -221,14 +244,14 @@ header .picture:active {
 }
 
 header h1 {
-	font-family: 'Lato Black', sans-serif;
+	font-family: 'Lato Black', 'Lato', sans-serif;
 	font-weight: bolder;
 	font-size: 24px;
 	font-weight: bolder;
 }
 
 header h2 {
-	font-family: 'Lato Light', sans-serif;
+	font-family: 'Lato Light', 'Lato', sans-serif;
 	font-size: 18px;
 	font-weight: lighter;
 }
@@ -238,54 +261,39 @@ main {
 	box-sizing: border-box;
 }
 
-main .practical {
-	padding: 0 16px;
-	padding-bottom: 180px;
-	box-sizing: border-box;
+main section{
+	text-align: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	min-height: calc(100vh - 256px);
+	box-sizing: border-box;
+	padding-bottom: 256px;
 }
 
-.practical img {
-	width: 100%;
-	max-width: 512px;
-	filter: drop-shadow(2px 6px 12px rgba(0, 0, 0, 0.5));
-}
-
-.practical img:hover {
-	transform: scale(1.05)
-}
-
-main .mern {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-}
-
-.mern h3 {
-	font-size: 24px;
-	font-family: 'Lato Black', 'Lato', sans-serif;
-	font-weight: 900;
-	margin-bottom: 32px;
-}
-
-.mern p {
+.about p {
 	margin: 0;
 }
 
-.mern .buttons {
+.about .buttons {
 	padding-top: 80px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
+	width: 100%;
+	max-width: 720px;
 }
 
 .buttons a {
-	color: #738EE6;
-	transition: .1s;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: #91A6FF;
+	transition: .2s;
 }
 
 .buttons a:hover {
@@ -294,7 +302,7 @@ main .mern {
 }
 
 .circle {
-	margin-bottom: 8px;
+	margin-bottom: 16px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -303,6 +311,7 @@ main .mern {
 	background: linear-gradient(#3A3584, #3A185B);
 	box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 50%;
+	transition: .2s;
 }
 
 .circle img {
@@ -313,7 +322,24 @@ main .mern {
 	transform: scale(1.2);
 }
 
+.projects .imgs{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.imgs img{
+	max-width: 256px;
+	width: 50%;
+}
+
 @media only screen and (min-width: 720px) {
+	html,
+	body {
+		font-size: 18px;
+	}
 	.planet1 {
 		top: 15%;
 		left: 15%;
@@ -323,11 +349,6 @@ main .mern {
 		right: 5%;
 	}
 	.shootingstar {
-		height: 100px;
-		width: 200px;
-		top: -100px;
-		left: 200px;
-		opacity: .2;
 		animation: shootingstar 13s infinite linear;
 	}
 	@keyframes shootingstar {
@@ -345,12 +366,12 @@ main .mern {
 		}
 	}
 	main {
-		padding: 16px 128px;
+		padding: 16px 64px;
 	}
 	main .practical {
 		flex-direction: row;
 	}
-	.mern .buttons {
+	.about .buttons {
 		margin: 0 auto;
 		max-width: 50%;
 	}
