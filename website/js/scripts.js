@@ -4,6 +4,22 @@ const down = document.querySelector('.down');
 const planet1 = document.querySelector('.planet1');
 const planet2 = document.querySelector('.planet2');
 
+const close = document.querySelector('.fa-times');
+const maximize = document.querySelector('.fa-window-maximize');
+const minimize = document.querySelector('.fa-window-minimize');
+
+const projects = document.querySelector('.projects-window');
+
+close.addEventListener('click', e => {
+	projects.classList.remove('maximized');
+})
+maximize.addEventListener('click', e => {
+	projects.classList.toggle('maximized');
+})
+minimize.addEventListener('click', e => {
+	projects.classList.remove('maximized');
+})
+
 menu.addEventListener('click', e => {
 	e.preventDefault();
 });

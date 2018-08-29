@@ -333,6 +333,22 @@ main section {
 	transform: scale(1.2);
 }
 
+.projects {
+	width: 100%;
+}
+
+.projects-window.maximized {
+	z-index: 100;
+	margin: 0 auto;
+	position: fixed;
+	top: 32px;
+	left: 32px;
+	right: 32px;
+	bottom: 32px;
+	box-shadow: 0 0 200px black;
+	width: calc(100% - 64px);
+}
+
 .projects-window {
 	border-radius: 16px;
 	width: 1080px;
@@ -366,7 +382,26 @@ main section {
 	justify-content: flex-start;
 }
 
+.header .action-buttons i:hover {
+	display: flex;
+	color: #2A345B;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.header .fa-times:hover {
+	background-color: #FF6EAB;
+}
+
+.header .fa-window-maximize:hover {
+	background-color: #FFBF85;
+}
+
+.header .fa-window-minimize:hover {
+	background-color: #01E7CF;
+}
+
 .header i {
+	cursor: pointer;
 	color: #01E7CF;
 	margin-right: 8px;
 	font-size: 8px;
@@ -395,13 +430,13 @@ main section {
 	font-size: 14px;
 	overflow: hidden;
 }
-.input span{
+
+.input span {
 	padding-left: 8px;
 	border-left: solid 1px rgba(0, 0, 0, 0.2);
 }
 
 .input i {
-	cursor: pointer;
 	font-size: 14px;
 	height: 100%;
 	color: #01E7CF;
@@ -425,6 +460,7 @@ main section {
 	align-items: stretch;
 	justify-content: stretch;
 	width: 100%;
+	height: 100%;
 }
 
 .body .sidebar {
@@ -451,6 +487,7 @@ main section {
 .sidebar a {
 	color: #c7d1ff;
 	width: 100%;
+	height: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -494,7 +531,7 @@ main section {
 }
 
 .content .info {
-	padding: 16px;
+	padding: 16px 32px;
 	box-sizing: border-box;
 }
 
@@ -503,7 +540,7 @@ main section {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	padding-bottom: 16px;
+	padding: 16px 0;
 }
 
 .titles img {
@@ -523,6 +560,7 @@ main section {
 
 .info p {
 	text-align: left;
+	margin-bottom: 16px;
 }
 
 @media only screen and (min-width: 720px) {
