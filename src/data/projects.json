@@ -2,7 +2,7 @@
 		"title": "Vigor",
 		"short_description": "JavaScript app",
 		"description": [
-			"Vigor is a vanilla JavaScript application, which I made to learn JavaScript and working with open data APIs. I learned to handle JSON data, and to visualize it. The website fakes a database by using localstorage. I took obvious inspiration from Google Material Design for the styling of this website. The project also helped me learn SASS and Jekyll. Vigor is the first presentable website I ever made and sparked my interest in JavaScript development."
+			"Vigor is a vanilla JavaScript application, which I made to learn JavaScript and working with open data APIs. I learned to handle and visualize JSON data. The website fakes a database by using LocalStorage. I took obvious inspiration from Google Material Design for the styling of this website. The project also helped me learn SASS and Jekyll. Vigor is the first presentable website I ever made and sparked my interest in JavaScript development."
 		],
 		"slug": "vigor",
 		"thumbnail": "vigor.svg",
@@ -55,7 +55,7 @@
 		"title": "ECHO",
 		"short_description": "Full stack web app",
 		"description": [
-			"ECHO is a community-driven platform designed for music lovers. The application offers a hub for people who enjoy discussion and exploring their musical taste. No matter what genres you like, everyone is free to speak their mind and expand their musical horizon. ECHO was a school project, intended to learn MERN full stack development, being MongoDB, Express.js, React.js and Node.js."
+			"ECHO is a community-driven platform designed for music lovers. The application offers a hub for people who enjoy discussion and exploring their musical taste. No matter what genres you like, everyone is free to speak their mind and expand their musical horizon. ECHO was a school project, intended to learn full stack MERN development, being MongoDB, Express.js, React.js and Node.js. This project also implemented Redux for state management and uses data from the Spotify API. I drew some design inspiration from Twitter."
 		],
 		"slug": "echo",
 		"thumbnail": "echo.svg",

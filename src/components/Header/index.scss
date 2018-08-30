@@ -63,6 +63,7 @@ header {
 		background-position: top;
 		background-size: cover;
 		margin: 24px auto;
+		transition: .2s;
 
 		&:active {
 			transform: scale(3);
