@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+::selection {
+	background-color: #01E7CF;
+	color: #2A345B;
+}
+
+html,
+body {
+	color: #c7d1ff;
+	line-height: 1.5rem;
+	font-size: 16px;
+	font-family: 'Lato Regular', 'Lato', sans-serif;
+	font-weight: 500;
+	min-height: 300vh;
+	overflow-x: hidden;
+}
+
+html {
+	background: linear-gradient(#2A345B, #7D4B7A, #4D889B, #2A345B);
+}
+
+body {
+	background-image: url('./assets/overlay.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: white;
+	margin: 0;
+}
+
+h3 {
+	font-size: 32px;
+	font-family: 'Lato Black', 'Lato', sans-serif;
+	font-weight: 900;
+	margin-bottom: 32px;
+}
+
+a {
+	color: #01E7CF;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.gradient-text {
+	color: white;
+	background: -webkit-linear-gradient(-60deg, #458DFF, #01E7CF);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.gradient-text.secondary {
+	background: -webkit-linear-gradient(-60deg, #FFBF85, #FF6EAB);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+main {
+	padding: 16px;
+	box-sizing: border-box;
+}
+
+main section {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: calc(100vh - 256px);
+	box-sizing: border-box;
+	padding-bottom: 256px;
+}
+@media only screen and (min-width: 720px) {
+
+	html,
+	body {
+		font-size: 18px;
+	}
+}

@@ -1,11 +1,23 @@
 {
-	"name": "personal-website",
-	"version": "1.0.0",
-	"description": "Server for personal website",
-	"main": "index.js",
-	"dependencies": {
-		"express": "*"
+  "name": "personal-website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.5"
 	},
-	"author": "Manaus Transez",
-	"license": "MIT"
+  "scripts": {
+    "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
+		"watch-css": "yarn build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --resursive",
+    "start-all": "npm-run-all -p watch-css start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "node-sass-chokidar": "^1.2.2",
+    "npm-run-all": "^4.1.2"
+  }
 }

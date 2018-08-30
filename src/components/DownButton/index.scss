@@ -1,0 +1,30 @@
+.down {
+	cursor: pointer;
+	position: absolute;
+	bottom: 80px;
+	color: #01E7CF;
+	font-size: 24px;
+	animation: bounce 2.5s infinite linear;
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+@keyframes bounce {
+
+	0%,
+	30%,
+	50%,
+	80%,
+	100% {
+		transform: translateY(0);
+	}
+
+	20% {
+		transform: translateY(-16px);
+	}
+
+	40% {
+		transform: translateY(-8px);
+	}
+}

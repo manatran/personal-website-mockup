@@ -1,0 +1,30 @@
+nav {
+  z-index: 100;
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+  nav img {
+    height: 32px;
+    width: 32px;
+    opacity: .75;
+    margin-right: 16px; }
+  nav .name {
+    font-size: 18px;
+    color: white;
+    opacity: .75; }
+  nav a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Lato Black', 'Lato', sans-serif;
+    font-weight: 900; }
+    nav a:hover {
+      text-decoration: none; }
