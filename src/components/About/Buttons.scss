@@ -26,8 +26,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		height: 64px;
-		width: 64px;
+		height: 80px;
+		width: 80px;
 		background: linear-gradient(#3A3584, #3A185B);
 		box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.25);
 		border-radius: 50%;
@@ -35,7 +35,7 @@
 	}
 
 	.circle img {
-		height: 32px;
+		height: 40px;
 	}
 
 	.circle:hover {

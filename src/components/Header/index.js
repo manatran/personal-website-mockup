@@ -21,7 +21,6 @@ class Header extends Component {
 					planet1.style.top = (window.scrollY / 75) + 15 + '%';
 					planet2.style.bottom = (window.scrollY / 25) - 5 + '%';
 				} else {
-					console.log(planet1)
 					planet1.style.top = (window.scrollY / 50) + 15 + '%';
 					planet2.style.bottom = (window.scrollY / 25) + '%';
 				}

@@ -20,7 +20,7 @@
 		"title": "Promoboek",
 		"short_description": "Full stack website",
 		"description": [
-			"The promoboek project was commissioned by the Artevelde University College and executed by a group of Graphical and Digital Media students. The team consisted of 8 students from various specializations. As the sole developer on the team, I was tasked with creating the website, which uses a RESTful API built with Node.js and a Nuxt.js frontend.",
+			"The promoboek project was commissioned by the Artevelde University College and executed by a group of Graphical and Digital Media students. The team consisted of 8 students from various specializations. As the sole developer on the team, I was tasked with creating the website, which uses a RESTful API built with Node.js and a Nuxt.js frontend. The API used by this website is the GDM API, also used by the gdm.gent website.",
 			"The goal of the promoboek and its website is to promote students, mainly to companies within the sector. All graduating students appear in the book, provided they gave us permission. The website and book comply with the European GDPR laws."
 		],
 		"slug": "promoboek",
@@ -37,7 +37,7 @@
 		"title": "GDM API",
 		"short_description": "RESTful API",
 		"description": [
-			"The GDM API is part of the TROTS-project. This project was commissioned by the Artevelde University College. It was my task to create a backend for TROTS. I chose to learn Node, Express and Mongoose for this project, as these technologies were new to me. The server is connected to a MongoDB database and offers full CRUD (create, read, update, delete) functionality. The API is currently being used by gdm.gent, the TROTS website."
+			"The GDM API is part of the TROTS-project. This project was commissioned by the Artevelde University College. It was my task to create a REST API for TROTS. I chose to learn Node, Express and Mongoose for this project, as these technologies were new to me. The server is connected to a MongoDB database and offers full CRUD (create, read, update, delete) functionality. The API is currently being used by gdm.gent, the TROTS website and the promoboek website."
 		],
 		"slug": "gdm-api",
 		"thumbnail": "gdm.svg",

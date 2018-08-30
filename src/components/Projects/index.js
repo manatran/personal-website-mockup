@@ -85,7 +85,9 @@ class Projects extends Component {
 									<img alt="icon" src={'/assets/' + this.state.project.thumbnail} />
 									<h3>{this.state.project.title}<span className="light"> - {this.state.project.short_description}</span></h3>
 								</div>
-								<p>{this.state.project.description}</p>
+								{this.state.project.description.map((el, i) => (
+									<p key={i}>{el}</p>
+								))}
 								<a target="_blank" href={this.state.project.url} rel="noopener noreferrer" className="button secondary">Visit project</a>
 							</div>
 						</div>

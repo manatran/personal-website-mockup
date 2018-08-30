@@ -135,6 +135,7 @@
   background-color: rgba(0, 0, 0, 0.15); }
 
 .sidebar button {
+  font-size: 14px;
   cursor: pointer;
   background-color: transparent;
   border: none;
@@ -145,7 +146,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8px 16px;
+  padding: 16px 4px;
   box-sizing: border-box; }
   .sidebar button:focus {
     outline: none; }
@@ -217,6 +218,7 @@
     display: block; }
   .sidebar button {
     justify-content: flex-start;
+    padding: 8px 16px;
     padding-right: 32px;
     margin-bottom: 16px; }
   .projects-window .body {
