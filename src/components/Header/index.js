@@ -33,16 +33,16 @@ class Header extends Component {
 	render() {
 		return (
 			<header>
+				<div className="img">
+					<img className="shootingstar" src={shootingstar} alt="shootingstar 1" />
+					<img className="planet1" src={planet1} alt="planet 1" />
+					<img className="planet2" src={planet2} alt="planet 2" />
+				</div>
 				<div className="intro">
 					<div className="picture"></div>
 					<h1>Manaus Transez</h1>
 					<h2>Full stack developer</h2>
 					<Button text="Download my resume" href={resume} />
-				</div>
-				<div className="img">
-					<img className="shootingstar" src={shootingstar} alt="shootingstar 1" />
-					<img className="planet1" src={planet1} alt="planet 1" />
-					<img className="planet2" src={planet2} alt="planet 2" />
 				</div>
 
 				<DownButton />

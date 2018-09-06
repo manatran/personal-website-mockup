@@ -14,7 +14,8 @@ class About extends Component {
 		return (
 			<section className="about">
 				<h3>I am a <span className="gradient-text">full stack developer</span></h3>
-				<p>I specialize in the so called <span title="MongoDB, Express, React, Node">MERN</span> stack.</p>
+				<p>I love JavaScript development.</p>
+				<p>Right now I really like the so called <span title="MongoDB, Express, React, Node">MERN</span> stack.</p>
 				<p>This JavaScript development stack is a combination of the following technologies:</p>
 
 				<div className="buttons">

@@ -9,14 +9,21 @@
   font-size: 28px; }
 
 .contact .social {
+  width: 100%;
+  max-width: 350px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   font-size: 20px;
   margin-top: 64px; }
-  .contact .social i {
-    margin: 0 32px;
-    transition: .2s; }
-    .contact .social i:hover {
-      transform: scale(1.2); }
+  .contact .social a {
+    max-width: 25%; }
+    .contact .social a i {
+      transition: .2s; }
+      .contact .social a i:hover {
+        transform: scale(1.2); }
+
+@media only screen and (max-width: 480px) {
+  .contact .email {
+    font-size: 6vw; } }
