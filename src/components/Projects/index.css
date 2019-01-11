@@ -187,7 +187,8 @@
     top: 32px;
     left: 32px;
     right: 32px;
-    bottom: 32px; }
+    bottom: 32px;
+    width: calc(100% - 64px); }
   .sidebar ul {
     margin-top: 64px;
     flex-direction: column; }

@@ -1,73 +1,73 @@
 [{
-		"title": "Vigor",
-		"short_description": "JavaScript app",
-		"description": [
-			"Vigor is a vanilla JavaScript application, which I made to learn JavaScript and working with open data APIs. I learned to handle and visualize JSON data. The website fakes a database by using LocalStorage. I took obvious inspiration from Google Material Design for the styling of this website. The project also helped me learn SASS and Jekyll. Vigor is the first presentable website I ever made and sparked my interest in JavaScript development."
-		],
-		"slug": "vigor",
-		"thumbnail": "vigor.svg",
-		"technologies": [
-			"JavaScript",
-			"JSON",
-			"Open Data",
-			"SASS",
-			"Jekyll"
-		],
-		"banner": "vigor-banner.png",
-		"url": "https://manaust.github.io"
-	},
-	{
-		"title": "Promoboek",
-		"short_description": "Full stack website",
-		"description": [
-			"The promoboek project was commissioned by the Artevelde University College and executed by a group of Graphical and Digital Media students. The team consisted of 8 students from various specializations. As the sole developer on the team, I was tasked with creating the website, which uses a RESTful API built with Node.js and a Nuxt.js frontend. The API used by this website is the GDM API, also used by the gdm.gent website.",
-			"The goal of the promoboek and its website is to promote students, mainly to companies within the sector. All graduating students appear in the book, provided they gave us permission. The website and book comply with the European GDPR laws."
-		],
-		"slug": "promoboek",
-		"thumbnail": "promoboek.svg",
-		"technologies": [
-			"Node.js",
-			"Nuxt.js",
-			"RESTful API"
-		],
-		"banner": "promoboek-banner.png",
-		"url": "http://promoboek-gdm.herokuapp.com/"
-	},
-	{
-		"title": "GDM API",
-		"short_description": "RESTful API",
-		"description": [
-			"The GDM API is part of the TROTS-project. This project was commissioned by the Artevelde University College. It was my task to create a REST API for TROTS. I chose to learn Node, Express and Mongoose for this project, as these technologies were new to me. The server is connected to a MongoDB database and offers full CRUD (create, read, update, delete) functionality. The API is currently being used by gdm.gent, the TROTS website and the promoboek website."
-		],
-		"slug": "gdm-api",
-		"thumbnail": "gdm.svg",
-		"banner": "gdm-banner.png",
-		"url": "http://www.gdm.gent/#/home",
-		"technologies": [
-			"Node.js",
-			"Express",
-			"Mongoose",
-			"MongoDB",
-			"RESTful API"
-		]
-	},
-	{
-		"title": "ECHO",
-		"short_description": "Full stack web app",
-		"description": [
-			"ECHO is a community-driven platform designed for music lovers. The application offers a hub for people who enjoy discussion and exploring their musical taste. No matter what genres you like, everyone is free to speak their mind and expand their musical horizon. ECHO was a school project, intended to learn full stack MERN development, being MongoDB, Express.js, React.js and Node.js. This project also implemented Redux for state management and uses data from the Spotify API. I drew some design inspiration from Twitter."
-		],
-		"slug": "echo",
-		"thumbnail": "echo.svg",
-		"banner": "echo-banner.png",
-		"url": "https://echo-mobdev.herokuapp.com/",
-		"technologies": [
-			"Node.js",
-			"Express",
-			"Mongoose",
-			"MongoDB",
-			"React",
-			"Redux"
-		]
-	}
+    "title": "Vigor",
+    "short_description": "JavaScript app",
+    "description": [
+      "Vigor is a vanilla JavaScript application, which I made to learn JavaScript and working with open data APIs. I learned to handle and visualize JSON data. The website fakes a database by using LocalStorage. I took obvious inspiration from Google Material Design for the styling of this website. The project also helped me learn SASS and Jekyll. Vigor is the first presentable website I ever made and sparked my interest in JavaScript development."
+    ],
+    "slug": "vigor",
+    "thumbnail": "vigor.svg",
+    "technologies": [
+      "JavaScript",
+      "JSON",
+      "Open Data",
+      "SASS",
+      "Jekyll"
+    ],
+    "banner": "vigor-banner.png",
+    "url": "https://manaust.github.io"
+  },
+  {
+    "title": "Promoboek",
+    "short_description": "Full stack website",
+    "description": [
+      "The promoboek project was commissioned by the Artevelde University College and executed by a group of Graphical and Digital Media students. The team consisted of 8 students from various specializations. As the sole developer on the team, I was tasked with creating the website, which uses a RESTful API built with Node.js and a Nuxt.js frontend. The API used by this website is the GDM API, also used by the gdm.gent website.",
+      "The goal of the promoboek and its website is to promote students, mainly to companies within the sector. All graduating students appear in the book, provided they gave us permission. The website and book comply with the European GDPR laws."
+    ],
+    "slug": "promoboek",
+    "thumbnail": "promoboek.svg",
+    "technologies": [
+      "Node.js",
+      "Nuxt.js",
+      "RESTful API"
+    ],
+    "banner": "promoboek-banner.png",
+    "url": "http://promoboek-gdm.herokuapp.com/"
+  },
+  {
+    "title": "GDM API",
+    "short_description": "RESTful API",
+    "description": [
+      "The GDM API is part of the TROTS-project. This project was commissioned by the Artevelde University College. It was my task to create a REST API for TROTS. I chose to learn Node, Express and Mongoose for this project, as these technologies were new to me. The server is connected to a MongoDB database and offers full CRUD (create, read, update, delete) functionality. The API is currently being used by gdm.gent, the TROTS website and the promoboek website."
+    ],
+    "slug": "gdm-api",
+    "thumbnail": "gdm.svg",
+    "banner": "gdm-banner.png",
+    "url": "http://www.gdm.gent/#/home",
+    "technologies": [
+      "Node.js",
+      "Express",
+      "Mongoose",
+      "MongoDB",
+      "RESTful API"
+    ]
+  },
+  {
+    "title": "ECHO",
+    "short_description": "Full stack web app",
+    "description": [
+      "ECHO is a community-driven platform designed for music lovers. The application offers a hub for people who enjoy discussion and exploring their musical taste. No matter what genres you like, everyone is free to speak their mind and expand their musical horizon. ECHO was a school project, intended to learn full stack MERN development, being MongoDB, Express.js, React.js and Node.js. This project also implemented Redux for state management and uses data from the Spotify API. I drew some design inspiration from Twitter."
+    ],
+    "slug": "echo",
+    "thumbnail": "echo.svg",
+    "banner": "echo-banner.png",
+    "url": "https://echo-mobdev.herokuapp.com/",
+    "technologies": [
+      "Node.js",
+      "Express",
+      "Mongoose",
+      "MongoDB",
+      "React",
+      "Redux"
+    ]
+  }
 ]

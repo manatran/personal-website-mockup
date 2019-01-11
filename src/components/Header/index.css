@@ -9,7 +9,6 @@ header {
   background-repeat: repeat;
   background-position: top center;
   min-height: 100vh;
-  padding: 32px 0;
   box-sizing: border-box; }
   header .img,
   header .img img {
@@ -19,27 +18,33 @@ header {
   header .intro {
     z-index: 2;
     display: flex;
+    padding-top: 32px;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
+    header .intro .button {
+      margin-top: 48px; }
   header .img {
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 1; }
+    z-index: 1;
+    user-select: none; }
   header .planet1 {
     opacity: .7;
     height: 100px;
     width: 100px;
-    top: 15%;
+    top: 7.5%;
     left: 5%;
+    transform: translate3d(0, 0, 0);
     filter: hue-rotate(0deg); }
   header .planet2 {
     height: 300px;
     width: 300px;
     bottom: -5%;
     right: -15%;
+    transform: translate3d(0, 0, 0);
     filter: hue-rotate(140deg); }
   header .shootingstar {
     height: 100px;
@@ -59,7 +64,7 @@ header {
     margin: 0 auto 48px;
     transition: .2s; }
     header .picture:active {
-      transform: scale(3); }
+      transform: scale(2); }
   header h1 {
     font-family: 'Lato Black', 'Lato', sans-serif;
     font-weight: bolder;

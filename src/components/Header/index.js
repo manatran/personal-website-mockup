@@ -16,8 +16,8 @@ class Header extends Component {
 
     window.addEventListener("scroll", () => {
       if (window.scrollY < window.screen.height) {
-        planet1.style.transform = `translate3d(0, ${window.scrollY / 2.75}px, 0)`;
-        planet2.style.transform = `translate3d(0, -${window.scrollY / 3.2}px, 0)`;
+        planet1.style.transform = `translate3d(0, ${window.scrollY / 7}px, 0)`;
+        planet2.style.transform = `translate3d(0, -${window.scrollY / 3}px, 0)`;
       }
     });
   }

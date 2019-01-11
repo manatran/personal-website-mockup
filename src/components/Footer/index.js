@@ -4,12 +4,12 @@ import './index.css';
 
 class Footer extends Component {
 
-	render() {
-		return (
-			<footer>
-				<p>2018 &copy; Manaus Transez</p>
-			</footer>
-		)
-	}
+  render() {
+    return (
+      <footer>
+        <p>{new Date().getFullYear()} &copy; Manaus Transez</p>
+      </footer>
+    )
+  }
 }
 export default Footer;
