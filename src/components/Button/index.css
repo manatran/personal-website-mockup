@@ -1,17 +1,17 @@
 a.button {
-  font-family: 'Lato Bolder', 'Lato', sans-serif;
+  font-family: "Lato Bolder", "Lato", sans-serif;
   font-weight: bolder;
   color: white;
   margin: 32px 0;
   display: inline-block;
   padding: 8px 24px;
-  background: linear-gradient(-60deg, #FFBF85, #FF6EAB);
+  background: linear-gradient(-60deg, #ffbf85, #ff6eab);
   border-radius: 20px;
   box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25); }
   a.button.secondary {
-    background: linear-gradient(-60deg, #FF72AE, #8F75FF); }
+    background: linear-gradient(-60deg, #ff72ae, #8f75ff); }
   a.button:hover {
-    opacity: .85;
+    opacity: 0.85;
     text-decoration: none;
     box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.15); }
   a.button:active {

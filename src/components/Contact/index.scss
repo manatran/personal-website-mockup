@@ -1,4 +1,6 @@
 .contact {
+  padding-bottom: 128px;
+
   h3 {
     line-height: 2.5rem;
   }
@@ -6,7 +8,7 @@
   .email {
     margin-top: 16px;
     font-weight: 900;
-    font-family: 'Lato Black', 'Lato', sans-serif;
+    font-family: "Lato Black", "Lato", sans-serif;
     line-height: 3rem;
     font-size: 28px;
   }
@@ -25,7 +27,7 @@
       max-width: 25%;
 
       i {
-        transition: .2s;
+        transition: 0.2s;
 
         &:hover {
           transform: scale(1.2);

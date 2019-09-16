@@ -1,4 +1,5 @@
-[{
+[
+  {
     "title": "Vigor",
     "short_description": "JavaScript app",
     "description": [
@@ -6,13 +7,7 @@
     ],
     "slug": "vigor",
     "thumbnail": "vigor.svg",
-    "technologies": [
-      "JavaScript",
-      "JSON",
-      "Open Data",
-      "SASS",
-      "Jekyll"
-    ],
+    "technologies": ["JavaScript", "JSON", "Open Data", "SASS", "Jekyll"],
     "banner": "vigor-banner.png",
     "url": "https://manaust.github.io"
   },
@@ -20,18 +15,14 @@
     "title": "Promoboek",
     "short_description": "Full stack website",
     "description": [
-      "The promoboek project was commissioned by the Artevelde University College and executed by a group of Graphical and Digital Media students. The team consisted of 8 students from various specializations. As the sole developer on the team, I was tasked with creating the website, which uses a RESTful API built with Node.js and a Nuxt.js frontend. The API used by this website is the GDM API, also used by the gdm.gent website.",
-      "The goal of the promoboek and its website is to promote students, mainly to companies within the sector. All graduating students appear in the book, provided they gave us permission. The website and book comply with the European GDPR laws."
+      "The promoboek project was commissioned by the Artevelde University College and executed by a group of Graphical and Digital Media students. The team consisted of 8 students from various specializations. As the sole developer on the team, I was tasked with creating the website which uses a RESTful API built with Node.js and a Nuxt.js frontend. The API used by this website is the GDM API, also used by the gdm.gent website.",
+      "The goal of the promoboek and its website is to promote students to companies within the sector. All graduating students appear in the book, provided they gave us permission. The website and book comply with the European GDPR laws."
     ],
     "slug": "promoboek",
     "thumbnail": "promoboek.svg",
-    "technologies": [
-      "Node.js",
-      "Nuxt.js",
-      "RESTful API"
-    ],
+    "technologies": ["Node.js", "Nuxt.js", "RESTful API"],
     "banner": "promoboek-banner.png",
-    "url": "http://promoboek-gdm.herokuapp.com/"
+    "url": "https://promoboek-gdm.herokuapp.com/"
   },
   {
     "title": "GDM API",
@@ -42,14 +33,8 @@
     "slug": "gdm-api",
     "thumbnail": "gdm.svg",
     "banner": "gdm-banner.png",
-    "url": "http://www.gdm.gent/#/home",
-    "technologies": [
-      "Node.js",
-      "Express",
-      "Mongoose",
-      "MongoDB",
-      "RESTful API"
-    ]
+    "url": "https://www.gdm.gent/#/home",
+    "technologies": ["Node.js", "Express", "Mongoose", "MongoDB", "RESTful API"]
   },
   {
     "title": "ECHO",
@@ -69,5 +54,37 @@
       "React",
       "Redux"
     ]
+  },
+  {
+    "title": "Spark",
+    "short_description": "React Native app",
+    "description": [
+      "Spark was created for the Web of Things course at Artevelde University College in Ghent. During this course, a group of students accepted a challenge to compete with a team from Amsterdam and a team from Stuttgart. The goal was to use modern technology in an attempt to ease the parking process in big cities, which would lead to lowering CO2 emmissions and bettering traffic flow in city centers. This project is the result of a semester's worth of brainstorming, planning and programming."
+    ],
+    "slug": "spark",
+    "thumbnail": "spark.svg",
+    "technologies": ["React Native", "Expo", "Redux"],
+    "banner": "spark-banner.png",
+    "url": "https://github.com/manatran/spark-client"
+  },
+  {
+    "title": "Orbit",
+    "short_description": "Full stack web app",
+    "description": [
+      "Orbit is a wholesome community for developers. It was an opportunity for me to learn several things, the main thing being TypeScript integration in React. Setting up this project allowed me to learn some 'quality of life' things such as Prettier, TSLint and commitlinting."
+    ],
+    "slug": "orbit",
+    "thumbnail": "orbit.svg",
+    "technologies": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Prettier",
+      "TSLint",
+      "PostgreSQL",
+      "Sequelize"
+    ],
+    "banner": "orbit-banner.png",
+    "url": "https://manatran.github.io"
   }
 ]

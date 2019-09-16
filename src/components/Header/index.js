@@ -37,7 +37,7 @@ class Header extends Component {
         <div className="intro">
           <div className="picture" />
           <h1>Manaus Transez</h1>
-          <h2>Full stack developer</h2>
+          <h2>JavaScript developer</h2>
           <Button text="Download my resume" href={resume} />
         </div>
 

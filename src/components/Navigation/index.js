@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import favicon from '../../assets/favicon.png';
+import React, { Component } from "react";
+import favicon from "../../assets/favicon.png";
 
-import './index.css';
+import "./index.css";
 
 class Navigation extends Component {
   render() {
@@ -12,7 +12,7 @@ class Navigation extends Component {
           <span className="name">manaus_t</span>
         </a>
       </nav>
-    )
+    );
   }
 }
 export default Navigation;

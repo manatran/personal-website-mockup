@@ -1,13 +1,14 @@
 .down {
   z-index: 200;
-  cursor: pointer;
-  color: #01E7CF;
+  color: #01e7cf;
   font-size: 24px;
-  animation: bounce 2.5s infinite linear;
-  background-color: transparent;
   border: none;
   outline: none;
-  padding: 32px 0; }
+  padding: 32px 0;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  animation: bounce 2.5s infinite linear; }
 
 @keyframes bounce {
   0%,
