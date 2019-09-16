@@ -2,7 +2,7 @@
 
 ## React project
 
-This project contains the code of my personal website. This website serves as a short professional introduction. It offers a description of what I do and showcases some of my proudest projects.
+This project contains the code of my personal website. This website serves as a short professional introduction. It offers a description of what I do and showcases some of my projects. You can see the website hosted [here](https://manatran.github.io).
 
 ## Technologies
 
