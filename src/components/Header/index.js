@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Button from "./../Button";
 import DownButton from "./../DownButton";
 
-import resume from "../../assets/resume_manaus_transez.pdf";
+import resume from "../../assets/resume-manaus-transez.pdf";
 import shootingstar from "../../assets/shootingstar.svg";
 import planet1 from "../../assets/planet1.svg";
 import planet2 from "../../assets/planet2.svg";

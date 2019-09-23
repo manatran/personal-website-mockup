@@ -3,7 +3,7 @@
     "title": "Vigor",
     "short_description": "JavaScript app",
     "description": [
-      "Vigor is a vanilla JavaScript application, which I made to learn JavaScript and working with open data APIs. I learned to handle and visualize JSON data. The website fakes a database by using LocalStorage. I took obvious inspiration from Google Material Design for the styling of this website. The project also helped me learn SASS and Jekyll. Vigor is the first presentable website I ever made and sparked my interest in JavaScript development."
+      "Vigor is a vanilla JavaScript application, which I made to learn JavaScript and working with open data APIs. I learned to handle and visualize JSON data. The website fakes a database by using LocalStorage. I took inspiration from Google Material Design for the styling of this website. The project also helped me learn SASS and Jekyll. Vigor is the first completed website I ever made and sparked my interest in JavaScript development."
     ],
     "slug": "vigor",
     "thumbnail": "vigor.svg",
