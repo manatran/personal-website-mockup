@@ -72,10 +72,14 @@
       flex: 1;
       box-sizing: border-box;
       font-size: 14px;
-      overflow: hidden; }
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
       .projects-window .header .input span {
         padding-left: 8px;
-        border-left: solid 1px rgba(0, 0, 0, 0.2); }
+        border-left: solid 1px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        text-overflow: ellipsis; }
       .projects-window .header .input i {
         font-size: 14px;
         height: 100%;

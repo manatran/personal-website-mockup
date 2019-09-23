@@ -89,10 +89,14 @@
       box-sizing: border-box;
       font-size: 14px;
       overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
 
       span {
         padding-left: 8px;
         border-left: solid 1px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
 
       i {

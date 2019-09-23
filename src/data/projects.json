@@ -9,7 +9,7 @@
     "thumbnail": "vigor.svg",
     "technologies": ["JavaScript", "JSON", "Open Data", "SASS", "Jekyll"],
     "banner": "vigor-banner.png",
-    "url": "https://manaust.github.io"
+    "url": "https://manatran.github.io/vigor"
   },
   {
     "title": "Promoboek",
@@ -85,6 +85,6 @@
       "Sequelize"
     ],
     "banner": "orbit-banner.png",
-    "url": "https://manatran.github.io"
+    "url": "https://manaust.github.io"
   }
 ]
